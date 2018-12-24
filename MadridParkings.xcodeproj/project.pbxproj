@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD16AB2021D143AD00F43532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB1F21D143AD00F43532 /* AppDelegate.m */; };
+		CD16AB2321D143AD00F43532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB2221D143AD00F43532 /* ViewController.m */; };
+		CD16AB2621D143AD00F43532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2421D143AD00F43532 /* Main.storyboard */; };
+		CD16AB2921D143AD00F43532 /* MadridParkings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */; };
+		CD16AB2B21D143AF00F43532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2A21D143AF00F43532 /* Assets.xcassets */; };
+		CD16AB2E21D143AF00F43532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2C21D143AF00F43532 /* LaunchScreen.storyboard */; };
+		CD16AB3121D143AF00F43532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB3021D143AF00F43532 /* main.m */; };
+		CD16AB3B21D143AF00F43532 /* MadridParkingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB3A21D143AF00F43532 /* MadridParkingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD16AB3721D143AF00F43532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD16AB1321D143AD00F43532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD16AB1A21D143AD00F43532;
+			remoteInfo = MadridParkings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD16AB1B21D143AD00F43532 /* MadridParkings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadridParkings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16AB1E21D143AD00F43532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD16AB1F21D143AD00F43532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD16AB2121D143AD00F43532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD16AB2221D143AD00F43532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD16AB2521D143AD00F43532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD16AB2821D143AD00F43532 /* MadridParkings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MadridParkings.xcdatamodel; sourceTree = "<group>"; };
+		CD16AB2A21D143AF00F43532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD16AB2D21D143AF00F43532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD16AB2F21D143AF00F43532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD16AB3021D143AF00F43532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD16AB3621D143AF00F43532 /* MadridParkingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadridParkingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16AB3A21D143AF00F43532 /* MadridParkingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadridParkingsTests.m; sourceTree = "<group>"; };
+		CD16AB3C21D143AF00F43532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD16AB1821D143AD00F43532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16AB3321D143AF00F43532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD16AB1221D143AD00F43532 = {
+			isa = PBXGroup;
+			children = (
+				CD16AB1D21D143AD00F43532 /* MadridParkings */,
+				CD16AB3921D143AF00F43532 /* MadridParkingsTests */,
+				CD16AB1C21D143AD00F43532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD16AB1C21D143AD00F43532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD16AB1B21D143AD00F43532 /* MadridParkings.app */,
+				CD16AB3621D143AF00F43532 /* MadridParkingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD16AB1D21D143AD00F43532 /* MadridParkings */ = {
+			isa = PBXGroup;
+			children = (
+				CD16AB1E21D143AD00F43532 /* AppDelegate.h */,
+				CD16AB1F21D143AD00F43532 /* AppDelegate.m */,
+				CD16AB2121D143AD00F43532 /* ViewController.h */,
+				CD16AB2221D143AD00F43532 /* ViewController.m */,
+				CD16AB2421D143AD00F43532 /* Main.storyboard */,
+				CD16AB2A21D143AF00F43532 /* Assets.xcassets */,
+				CD16AB2C21D143AF00F43532 /* LaunchScreen.storyboard */,
+				CD16AB2F21D143AF00F43532 /* Info.plist */,
+				CD16AB3021D143AF00F43532 /* main.m */,
+				CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */,
+			);
+			path = MadridParkings;
+			sourceTree = "<group>";
+		};
+		CD16AB3921D143AF00F43532 /* MadridParkingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD16AB3A21D143AF00F43532 /* MadridParkingsTests.m */,
+				CD16AB3C21D143AF00F43532 /* Info.plist */,
+			);
+			path = MadridParkingsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD16AB1A21D143AD00F43532 /* MadridParkings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16AB3F21D143AF00F43532 /* Build configuration list for PBXNativeTarget "MadridParkings" */;
+			buildPhases = (
+				CD16AB1721D143AD00F43532 /* Sources */,
+				CD16AB1821D143AD00F43532 /* Frameworks */,
+				CD16AB1921D143AD00F43532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadridParkings;
+			productName = MadridParkings;
+			productReference = CD16AB1B21D143AD00F43532 /* MadridParkings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD16AB3521D143AF00F43532 /* MadridParkingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16AB4221D143AF00F43532 /* Build configuration list for PBXNativeTarget "MadridParkingsTests" */;
+			buildPhases = (
+				CD16AB3221D143AF00F43532 /* Sources */,
+				CD16AB3321D143AF00F43532 /* Frameworks */,
+				CD16AB3421D143AF00F43532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD16AB3821D143AF00F43532 /* PBXTargetDependency */,
+			);
+			name = MadridParkingsTests;
+			productName = MadridParkingsTests;
+			productReference = CD16AB3621D143AF00F43532 /* MadridParkingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD16AB1321D143AD00F43532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rafael Gil";
+				TargetAttributes = {
+					CD16AB1A21D143AD00F43532 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD16AB3521D143AF00F43532 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD16AB1A21D143AD00F43532;
+					};
+				};
+			};
+			buildConfigurationList = CD16AB1621D143AD00F43532 /* Build configuration list for PBXProject "MadridParkings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD16AB1221D143AD00F43532;
+			productRefGroup = CD16AB1C21D143AD00F43532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD16AB1A21D143AD00F43532 /* MadridParkings */,
+				CD16AB3521D143AF00F43532 /* MadridParkingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD16AB1921D143AD00F43532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16AB2E21D143AF00F43532 /* LaunchScreen.storyboard in Resources */,
+				CD16AB2B21D143AF00F43532 /* Assets.xcassets in Resources */,
+				CD16AB2621D143AD00F43532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16AB3421D143AF00F43532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD16AB1721D143AD00F43532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16AB2321D143AD00F43532 /* ViewController.m in Sources */,
+				CD16AB2921D143AD00F43532 /* MadridParkings.xcdatamodeld in Sources */,
+				CD16AB3121D143AF00F43532 /* main.m in Sources */,
+				CD16AB2021D143AD00F43532 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16AB3221D143AF00F43532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16AB3B21D143AF00F43532 /* MadridParkingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD16AB3821D143AF00F43532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD16AB1A21D143AD00F43532 /* MadridParkings */;
+			targetProxy = CD16AB3721D143AF00F43532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD16AB2421D143AD00F43532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16AB2521D143AD00F43532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD16AB2C21D143AF00F43532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16AB2D21D143AF00F43532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD16AB3D21D143AF00F43532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD16AB3E21D143AF00F43532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD16AB4021D143AF00F43532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				INFOPLIST_FILE = MadridParkings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD16AB4121D143AF00F43532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				INFOPLIST_FILE = MadridParkings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD16AB4321D143AF00F43532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				INFOPLIST_FILE = MadridParkingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadridParkings.app/MadridParkings";
+			};
+			name = Debug;
+		};
+		CD16AB4421D143AF00F43532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				INFOPLIST_FILE = MadridParkingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadridParkings.app/MadridParkings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD16AB1621D143AD00F43532 /* Build configuration list for PBXProject "MadridParkings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16AB3D21D143AF00F43532 /* Debug */,
+				CD16AB3E21D143AF00F43532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16AB3F21D143AF00F43532 /* Build configuration list for PBXNativeTarget "MadridParkings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16AB4021D143AF00F43532 /* Debug */,
+				CD16AB4121D143AF00F43532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16AB4221D143AF00F43532 /* Build configuration list for PBXNativeTarget "MadridParkingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16AB4321D143AF00F43532 /* Debug */,
+				CD16AB4421D143AF00F43532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD16AB2821D143AD00F43532 /* MadridParkings.xcdatamodel */,
+			);
+			currentVersion = CD16AB2821D143AD00F43532 /* MadridParkings.xcdatamodel */;
+			path = MadridParkings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD16AB1321D143AD00F43532 /* Project object */;
+}
