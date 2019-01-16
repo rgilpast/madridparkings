@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MPEntityMO" representedClassName=".MPEntityMO" isAbstract="YES" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orgDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MPPublicParkingsMO" representedClassName=".MPPublicParkingsMO" parentEntity="MPEntityMO" syncable="YES"/>
+    <entity name="MPResidentParkingsMO" representedClassName=".MPResidentParkingsMO" parentEntity="MPEntityMO" syncable="YES"/>
+    <entity name="MPVehicleDepositsMO" representedClassName=".MPVehicleDepositsMO" parentEntity="MPEntityMO" syncable="YES"/>
+    <elements>
+        <element name="MPEntityMO" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="MPPublicParkingsMO" positionX="-45" positionY="27" width="128" height="45"/>
+        <element name="MPResidentParkingsMO" positionX="-54" positionY="-9" width="128" height="45"/>
+        <element name="MPVehicleDepositsMO" positionX="-36" positionY="9" width="128" height="45"/>
+    </elements>
+</model>

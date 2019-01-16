@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f4F-6r-Bz6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1oX-CP-u4q">
+            <objects>
+                <navigationController id="f4F-6r-Bz6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="KPS-hg-W1s">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="B7h-gA-DUa" kind="relationship" relationship="rootViewController" id="lVP-Yw-F0o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DzN-wv-xCM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1753" y="-48"/>
+        </scene>
+        <!--Parkings de Madrid-->
+        <scene sceneID="Mu0-YK-xCe">
+            <objects>
+                <viewController id="B7h-gA-DUa" customClass="MPMainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6B5-S8-Uqa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ErA-2e-GsA">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MPEntityCellView" rowHeight="74" id="Y0F-ZN-A9J" customClass="MPEntityCellView">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="74"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y0F-ZN-A9J" id="87Z-ge-tpf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5f-CJ-NlA" userLabel="Entity Name">
+                                                    <rect key="frame" x="15" y="11" width="345" height="26.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NR6-Jc-2z5" userLabel="Entity Address">
+                                                    <rect key="frame" x="15" y="43.5" width="345" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NR6-Jc-2z5" firstAttribute="bottom" secondItem="87Z-ge-tpf" secondAttribute="bottomMargin" id="2jW-ja-4yD"/>
+                                                <constraint firstItem="NR6-Jc-2z5" firstAttribute="leading" secondItem="87Z-ge-tpf" secondAttribute="leadingMargin" id="4v0-fW-7oS"/>
+                                                <constraint firstItem="F5f-CJ-NlA" firstAttribute="leading" secondItem="87Z-ge-tpf" secondAttribute="leadingMargin" id="GqH-MR-bM0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="F5f-CJ-NlA" secondAttribute="trailing" id="JQt-ZX-GWI"/>
+                                                <constraint firstItem="F5f-CJ-NlA" firstAttribute="top" secondItem="87Z-ge-tpf" secondAttribute="topMargin" id="QUX-eZ-QUq"/>
+                                                <constraint firstItem="NR6-Jc-2z5" firstAttribute="top" secondItem="F5f-CJ-NlA" secondAttribute="bottom" constant="6" id="Tuc-U3-UJi"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="NR6-Jc-2z5" secondAttribute="trailing" id="exD-DA-30r"/>
+                                                <constraint firstItem="NR6-Jc-2z5" firstAttribute="top" secondItem="F5f-CJ-NlA" secondAttribute="bottom" constant="6" id="yBL-HZ-flg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="entityAddressLabel" destination="NR6-Jc-2z5" id="kN6-0F-sl1"/>
+                                            <outlet property="entityNameLabel" destination="F5f-CJ-NlA" id="Djb-oV-0AU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="B7h-gA-DUa" id="o34-te-S7P"/>
+                                    <outlet property="delegate" destination="B7h-gA-DUa" id="2eV-CI-5Kk"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ErA-2e-GsA" firstAttribute="bottom" secondItem="3Dj-Y7-EN3" secondAttribute="bottom" id="3XJ-cP-dwN"/>
+                            <constraint firstItem="ErA-2e-GsA" firstAttribute="trailing" secondItem="3Dj-Y7-EN3" secondAttribute="trailing" id="G2Y-Oo-VdY"/>
+                            <constraint firstItem="ErA-2e-GsA" firstAttribute="top" secondItem="3Dj-Y7-EN3" secondAttribute="top" id="sMn-V1-Xlb"/>
+                            <constraint firstItem="ErA-2e-GsA" firstAttribute="leading" secondItem="3Dj-Y7-EN3" secondAttribute="leading" id="ygU-Rb-BTq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Dj-Y7-EN3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Parkings de Madrid" id="n20-pJ-VWi"/>
+                    <connections>
+                        <outlet property="tableView" destination="ErA-2e-GsA" id="WuZ-s0-Wz6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39M-dF-F7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-983" y="-48"/>
+        </scene>
+    </scenes>
+</document>

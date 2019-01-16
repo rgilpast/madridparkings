@@ -8,13 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		CD16AB2021D143AD00F43532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB1F21D143AD00F43532 /* AppDelegate.m */; };
-		CD16AB2321D143AD00F43532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB2221D143AD00F43532 /* ViewController.m */; };
+		CD16AB2321D143AD00F43532 /* MPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB2221D143AD00F43532 /* MPMainViewController.m */; };
 		CD16AB2621D143AD00F43532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2421D143AD00F43532 /* Main.storyboard */; };
 		CD16AB2921D143AD00F43532 /* MadridParkings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */; };
 		CD16AB2B21D143AF00F43532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2A21D143AF00F43532 /* Assets.xcassets */; };
 		CD16AB2E21D143AF00F43532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16AB2C21D143AF00F43532 /* LaunchScreen.storyboard */; };
 		CD16AB3121D143AF00F43532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB3021D143AF00F43532 /* main.m */; };
 		CD16AB3B21D143AF00F43532 /* MadridParkingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16AB3A21D143AF00F43532 /* MadridParkingsTests.m */; };
+		CD17759D21DE0967002A45DE /* MPMainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17759B21DE0967002A45DE /* MPMainPresenter.m */; };
+		CD1775A721DE2CF8002A45DE /* MPMainFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1775A621DE2CF8002A45DE /* MPMainFlowController.m */; };
+		CD1775A921DEC20C002A45DE /* MPEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1775A821DEC20C002A45DE /* MPEntity.swift */; };
+		CD1775AC21DEC80A002A45DE /* MPDataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1775AB21DEC80A002A45DE /* MPDataManagerProtocols.swift */; };
+		CD48B6FC21D637B0006A50B6 /* NetworkingManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48B6F821D637B0006A50B6 /* NetworkingManagerProtocol.swift */; };
+		CD48B6FD21D637B0006A50B6 /* AlamoFireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48B6F921D637B0006A50B6 /* AlamoFireManager.swift */; };
+		CD48B6FE21D637B0006A50B6 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48B6FA21D637B0006A50B6 /* URLSessionManager.swift */; };
+		CD48B70121D6399B006A50B6 /* UIView+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48B70021D6399B006A50B6 /* UIView+LoadingIndicator.swift */; };
+		CD48B70321D63D54006A50B6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = CD48B70221D63D54006A50B6 /* Cartfile */; };
+		CD4D1D1921EBC6F3008A624F /* MPDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D1D1821EBC6F3008A624F /* MPDatabaseManager.swift */; };
+		CD4D1D1B21EBD906008A624F /* PersistenceManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D1D1A21EBD906008A624F /* PersistenceManagerProtocol.swift */; };
+		CD4EFED921D4141900BD6C50 /* MPWebServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4EFED821D4141900BD6C50 /* MPWebServicesManager.swift */; };
+		CD5B999E21EF27B90039A23B /* MPMainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B999D21EF27B90039A23B /* MPMainInteractor.swift */; };
+		CD5B99A021EF282D0039A23B /* MPMainInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B999F21EF282D0039A23B /* MPMainInteractorProtocol.swift */; };
+		CD5B99A221EF2FFA0039A23B /* MPVersionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B99A121EF2FFA0039A23B /* MPVersionManagerProtocol.swift */; };
+		CD5B99A421EF316B0039A23B /* MPVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B99A321EF316B0039A23B /* MPVersionManager.swift */; };
+		CD64B08321DD64CB009C23E7 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD64B08221DD64CB009C23E7 /* SwiftyJSON.framework */; };
+		CD8B33FE21D77DCA00F922EA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B33FD21D77DCA00F922EA /* Alamofire.framework */; };
+		CD8B340121D783D300F922EA /* LoadingIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B340021D783D300F922EA /* LoadingIndicatorProtocol.swift */; };
+		CD8B341921D83E5200F922EA /* MPEntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B341821D83E5200F922EA /* MPEntityProtocol.swift */; };
+		CD8B341B21D83F1E00F922EA /* MPPublicParkingsMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B341A21D83F1E00F922EA /* MPPublicParkingsMO.swift */; };
+		CD8B341D21D83FA200F922EA /* MPResidentParkingsMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B341C21D83FA200F922EA /* MPResidentParkingsMO.swift */; };
+		CD8B341F21D83FEB00F922EA /* MPVehicleDepositsMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B341E21D83FEB00F922EA /* MPVehicleDepositsMO.swift */; };
+		CDA542D721E8F0A700C0ECD3 /* MPEntityCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA542D621E8F0A700C0ECD3 /* MPEntityCellView.m */; };
+		CDA542DC21E8F3D200C0ECD3 /* MPEntityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA542DB21E8F3D200C0ECD3 /* MPEntityViewModel.m */; };
+		CDABFC3B21E91C55000A0EC0 /* MPEntityMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABFC3A21E91C55000A0EC0 /* MPEntityMO.swift */; };
+		CDABFC3F21E91D68000A0EC0 /* MPVehicleDeposits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABFC3C21E91D67000A0EC0 /* MPVehicleDeposits.swift */; };
+		CDABFC4021E91D68000A0EC0 /* MPPublicParkings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABFC3D21E91D68000A0EC0 /* MPPublicParkings.swift */; };
+		CDABFC4121E91D68000A0EC0 /* MPResidentParkings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABFC3E21E91D68000A0EC0 /* MPResidentParkings.swift */; };
+		CDD8C23F21D20F7F008CE5C9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD8C23E21D20F7F008CE5C9 /* CoreDataManager.swift */; };
+		CDE90F9E21E00A3900F575C6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD64B08221DD64CB009C23E7 /* SwiftyJSON.framework */; };
+		CDE90F9F21E00A3900F575C6 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD64B08221DD64CB009C23E7 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDE90FA021E00A3900F575C6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B33FD21D77DCA00F922EA /* Alamofire.framework */; };
+		CDE90FA121E00A3900F575C6 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD8B33FD21D77DCA00F922EA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +61,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE90FA221E00A3900F575C6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDE90F9F21E00A3900F575C6 /* SwiftyJSON.framework in Embed Frameworks */,
+				CDE90FA121E00A3900F575C6 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CD16AB1B21D143AD00F43532 /* MadridParkings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadridParkings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD16AB1E21D143AD00F43532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD16AB1F21D143AD00F43532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD16AB2121D143AD00F43532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD16AB2221D143AD00F43532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD16AB2121D143AD00F43532 /* MPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMainViewController.h; sourceTree = "<group>"; };
+		CD16AB2221D143AD00F43532 /* MPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMainViewController.m; sourceTree = "<group>"; };
 		CD16AB2521D143AD00F43532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD16AB2821D143AD00F43532 /* MadridParkings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MadridParkings.xcdatamodel; sourceTree = "<group>"; };
 		CD16AB2A21D143AF00F43532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +91,45 @@
 		CD16AB3621D143AF00F43532 /* MadridParkingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadridParkingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD16AB3A21D143AF00F43532 /* MadridParkingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadridParkingsTests.m; sourceTree = "<group>"; };
 		CD16AB3C21D143AF00F43532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD17759B21DE0967002A45DE /* MPMainPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMainPresenter.m; sourceTree = "<group>"; };
+		CD17759C21DE0967002A45DE /* MPMainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMainPresenter.h; sourceTree = "<group>"; };
+		CD17759E21DE1053002A45DE /* MPMainPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMainPresenterProtocol.h; sourceTree = "<group>"; };
+		CD17759F21DE10BA002A45DE /* MPMainViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMainViewProtocol.h; sourceTree = "<group>"; };
+		CD1775A221DE2886002A45DE /* MadridParkings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadridParkings-Prefix.pch"; sourceTree = "<group>"; };
+		CD1775A521DE2CF8002A45DE /* MPMainFlowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMainFlowController.h; sourceTree = "<group>"; };
+		CD1775A621DE2CF8002A45DE /* MPMainFlowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMainFlowController.m; sourceTree = "<group>"; };
+		CD1775A821DEC20C002A45DE /* MPEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPEntity.swift; sourceTree = "<group>"; };
+		CD1775AB21DEC80A002A45DE /* MPDataManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPDataManagerProtocols.swift; sourceTree = "<group>"; };
+		CD48B6F821D637B0006A50B6 /* NetworkingManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerProtocol.swift; sourceTree = "<group>"; };
+		CD48B6F921D637B0006A50B6 /* AlamoFireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFireManager.swift; sourceTree = "<group>"; };
+		CD48B6FA21D637B0006A50B6 /* URLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		CD48B70021D6399B006A50B6 /* UIView+LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		CD48B70221D63D54006A50B6 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		CD4D1D1821EBC6F3008A624F /* MPDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPDatabaseManager.swift; sourceTree = "<group>"; };
+		CD4D1D1A21EBD906008A624F /* PersistenceManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManagerProtocol.swift; sourceTree = "<group>"; };
+		CD4EFED821D4141900BD6C50 /* MPWebServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPWebServicesManager.swift; sourceTree = "<group>"; };
+		CD5B999D21EF27B90039A23B /* MPMainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPMainInteractor.swift; sourceTree = "<group>"; };
+		CD5B999F21EF282D0039A23B /* MPMainInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPMainInteractorProtocol.swift; sourceTree = "<group>"; };
+		CD5B99A121EF2FFA0039A23B /* MPVersionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVersionManagerProtocol.swift; sourceTree = "<group>"; };
+		CD5B99A321EF316B0039A23B /* MPVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVersionManager.swift; sourceTree = "<group>"; };
+		CD64B08221DD64CB009C23E7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
+		CD8B33FD21D77DCA00F922EA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		CD8B340021D783D300F922EA /* LoadingIndicatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorProtocol.swift; sourceTree = "<group>"; };
+		CD8B341821D83E5200F922EA /* MPEntityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPEntityProtocol.swift; sourceTree = "<group>"; };
+		CD8B341A21D83F1E00F922EA /* MPPublicParkingsMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPublicParkingsMO.swift; sourceTree = "<group>"; };
+		CD8B341C21D83FA200F922EA /* MPResidentParkingsMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPResidentParkingsMO.swift; sourceTree = "<group>"; };
+		CD8B341E21D83FEB00F922EA /* MPVehicleDepositsMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVehicleDepositsMO.swift; sourceTree = "<group>"; };
+		CDA542D521E8F0A700C0ECD3 /* MPEntityCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPEntityCellView.h; sourceTree = "<group>"; };
+		CDA542D621E8F0A700C0ECD3 /* MPEntityCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPEntityCellView.m; sourceTree = "<group>"; };
+		CDA542DA21E8F3D200C0ECD3 /* MPEntityViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPEntityViewModel.h; sourceTree = "<group>"; };
+		CDA542DB21E8F3D200C0ECD3 /* MPEntityViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPEntityViewModel.m; sourceTree = "<group>"; };
+		CDA542DD21E8FE6300C0ECD3 /* MPEntityViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPEntityViewModelProtocol.h; sourceTree = "<group>"; };
+		CDABFC3A21E91C55000A0EC0 /* MPEntityMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPEntityMO.swift; sourceTree = "<group>"; };
+		CDABFC3C21E91D67000A0EC0 /* MPVehicleDeposits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPVehicleDeposits.swift; sourceTree = "<group>"; };
+		CDABFC3D21E91D68000A0EC0 /* MPPublicParkings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPPublicParkings.swift; sourceTree = "<group>"; };
+		CDABFC3E21E91D68000A0EC0 /* MPResidentParkings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPResidentParkings.swift; sourceTree = "<group>"; };
+		CDD8C23D21D20F7F008CE5C9 /* MadridParkings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadridParkings-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDD8C23E21D20F7F008CE5C9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +137,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD64B08321DD64CB009C23E7 /* SwiftyJSON.framework in Frameworks */,
+				CD8B33FE21D77DCA00F922EA /* Alamofire.framework in Frameworks */,
+				CDE90F9E21E00A3900F575C6 /* SwiftyJSON.framework in Frameworks */,
+				CDE90FA021E00A3900F575C6 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,16 +175,20 @@
 		CD16AB1D21D143AD00F43532 /* MadridParkings */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B33FF21D77E0C00F922EA /* Carthage-Frameworks */,
+				CD1775A421DE2CB0002A45DE /* FlowControllers */,
+				CDD8C23B21D20F23008CE5C9 /* Views */,
+				CDD8C23C21D20F2D008CE5C9 /* Presenters */,
+				CDD8C23A21D20EF4008CE5C9 /* Models */,
 				CD16AB1E21D143AD00F43532 /* AppDelegate.h */,
 				CD16AB1F21D143AD00F43532 /* AppDelegate.m */,
-				CD16AB2121D143AD00F43532 /* ViewController.h */,
-				CD16AB2221D143AD00F43532 /* ViewController.m */,
-				CD16AB2421D143AD00F43532 /* Main.storyboard */,
 				CD16AB2A21D143AF00F43532 /* Assets.xcassets */,
 				CD16AB2C21D143AF00F43532 /* LaunchScreen.storyboard */,
 				CD16AB2F21D143AF00F43532 /* Info.plist */,
 				CD16AB3021D143AF00F43532 /* main.m */,
-				CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */,
+				CD48B70221D63D54006A50B6 /* Cartfile */,
+				CDD8C23D21D20F7F008CE5C9 /* MadridParkings-Bridging-Header.h */,
+				CD1775A221DE2886002A45DE /* MadridParkings-Prefix.pch */,
 			);
 			path = MadridParkings;
 			sourceTree = "<group>";
@@ -106,6 +202,154 @@
 			path = MadridParkingsTests;
 			sourceTree = "<group>";
 		};
+		CD1775A421DE2CB0002A45DE /* FlowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD1775A521DE2CF8002A45DE /* MPMainFlowController.h */,
+				CD1775A621DE2CF8002A45DE /* MPMainFlowController.m */,
+			);
+			path = FlowControllers;
+			sourceTree = "<group>";
+		};
+		CD1775AA21DEC7C9002A45DE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B341821D83E5200F922EA /* MPEntityProtocol.swift */,
+				CD1775AB21DEC80A002A45DE /* MPDataManagerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CD441BF621E66FAB002A9484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD16AB2421D143AD00F43532 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD48B6F521D63681006A50B6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CD48B6F821D637B0006A50B6 /* NetworkingManagerProtocol.swift */,
+				CD48B6F921D637B0006A50B6 /* AlamoFireManager.swift */,
+				CD48B6FA21D637B0006A50B6 /* URLSessionManager.swift */,
+				CD4EFED821D4141900BD6C50 /* MPWebServicesManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CD48B6F621D636A3006A50B6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8C23E21D20F7F008CE5C9 /* CoreDataManager.swift */,
+				CD16AB2721D143AD00F43532 /* MadridParkings.xcdatamodeld */,
+				CD4D1D1821EBC6F3008A624F /* MPDatabaseManager.swift */,
+				CD4D1D1A21EBD906008A624F /* PersistenceManagerProtocol.swift */,
+				CD5B99A121EF2FFA0039A23B /* MPVersionManagerProtocol.swift */,
+				CD5B99A321EF316B0039A23B /* MPVersionManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		CD48B6FF21D6397D006A50B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD48B70021D6399B006A50B6 /* UIView+LoadingIndicator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD5B999C21EF27970039A23B /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B999D21EF27B90039A23B /* MPMainInteractor.swift */,
+				CD5B999F21EF282D0039A23B /* MPMainInteractorProtocol.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		CD8B33FF21D77E0C00F922EA /* Carthage-Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD64B08221DD64CB009C23E7 /* SwiftyJSON.framework */,
+				CD8B33FD21D77DCA00F922EA /* Alamofire.framework */,
+			);
+			name = "Carthage-Frameworks";
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
+		CD8B340221D7CD2600F922EA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CDABFC3A21E91C55000A0EC0 /* MPEntityMO.swift */,
+				CD8B341A21D83F1E00F922EA /* MPPublicParkingsMO.swift */,
+				CD8B341C21D83FA200F922EA /* MPResidentParkingsMO.swift */,
+				CD8B341E21D83FEB00F922EA /* MPVehicleDepositsMO.swift */,
+				CDABFC3D21E91D68000A0EC0 /* MPPublicParkings.swift */,
+				CDABFC3E21E91D68000A0EC0 /* MPResidentParkings.swift */,
+				CDABFC3C21E91D67000A0EC0 /* MPVehicleDeposits.swift */,
+				CD1775A821DEC20C002A45DE /* MPEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CDA542D821E8F36A00C0ECD3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CDA542D521E8F0A700C0ECD3 /* MPEntityCellView.h */,
+				CDA542D621E8F0A700C0ECD3 /* MPEntityCellView.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CDA542D921E8F37B00C0ECD3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDA542DA21E8F3D200C0ECD3 /* MPEntityViewModel.h */,
+				CDA542DB21E8F3D200C0ECD3 /* MPEntityViewModel.m */,
+				CDA542DD21E8FE6300C0ECD3 /* MPEntityViewModelProtocol.h */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDD8C23A21D20EF4008CE5C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B999C21EF27970039A23B /* Interactors */,
+				CD1775AA21DEC7C9002A45DE /* Protocols */,
+				CD8B340221D7CD2600F922EA /* Entities */,
+				CD48B6F621D636A3006A50B6 /* Persistence */,
+				CD48B6F521D63681006A50B6 /* Networking */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDD8C23B21D20F23008CE5C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDA542D821E8F36A00C0ECD3 /* Cells */,
+				CD441BF621E66FAB002A9484 /* Resources */,
+				CD8B340021D783D300F922EA /* LoadingIndicatorProtocol.swift */,
+				CD48B6FF21D6397D006A50B6 /* Extensions */,
+				CD16AB2121D143AD00F43532 /* MPMainViewController.h */,
+				CD16AB2221D143AD00F43532 /* MPMainViewController.m */,
+				CD17759F21DE10BA002A45DE /* MPMainViewProtocol.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDD8C23C21D20F2D008CE5C9 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CDA542D921E8F37B00C0ECD3 /* ViewModels */,
+				CD17759C21DE0967002A45DE /* MPMainPresenter.h */,
+				CD17759B21DE0967002A45DE /* MPMainPresenter.m */,
+				CD17759E21DE1053002A45DE /* MPMainPresenterProtocol.h */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +360,8 @@
 				CD16AB1721D143AD00F43532 /* Sources */,
 				CD16AB1821D143AD00F43532 /* Frameworks */,
 				CD16AB1921D143AD00F43532 /* Resources */,
+				CD8B33FC21D77AC100F922EA /* Carthage copy frameworks */,
+				CDE90FA221E00A3900F575C6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +401,7 @@
 				TargetAttributes = {
 					CD16AB1A21D143AD00F43532 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					CD16AB3521D143AF00F43532 = {
 						CreatedOnToolsVersion = 10.1;
@@ -188,6 +435,7 @@
 			files = (
 				CD16AB2E21D143AF00F43532 /* LaunchScreen.storyboard in Resources */,
 				CD16AB2B21D143AF00F43532 /* Assets.xcassets in Resources */,
+				CD48B70321D63D54006A50B6 /* Cartfile in Resources */,
 				CD16AB2621D143AD00F43532 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,15 +449,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD8B33FC21D77AC100F922EA /* Carthage copy frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = "Carthage copy frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# copy frameworks from Cathage\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD16AB1721D143AD00F43532 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD16AB2321D143AD00F43532 /* ViewController.m in Sources */,
+				CD4EFED921D4141900BD6C50 /* MPWebServicesManager.swift in Sources */,
+				CD16AB2321D143AD00F43532 /* MPMainViewController.m in Sources */,
+				CDABFC4121E91D68000A0EC0 /* MPResidentParkings.swift in Sources */,
+				CD8B341D21D83FA200F922EA /* MPResidentParkingsMO.swift in Sources */,
+				CD4D1D1B21EBD906008A624F /* PersistenceManagerProtocol.swift in Sources */,
+				CD48B70121D6399B006A50B6 /* UIView+LoadingIndicator.swift in Sources */,
+				CDABFC4021E91D68000A0EC0 /* MPPublicParkings.swift in Sources */,
 				CD16AB2921D143AD00F43532 /* MadridParkings.xcdatamodeld in Sources */,
 				CD16AB3121D143AF00F43532 /* main.m in Sources */,
+				CD17759D21DE0967002A45DE /* MPMainPresenter.m in Sources */,
+				CD5B999E21EF27B90039A23B /* MPMainInteractor.swift in Sources */,
+				CD48B6FE21D637B0006A50B6 /* URLSessionManager.swift in Sources */,
+				CD8B340121D783D300F922EA /* LoadingIndicatorProtocol.swift in Sources */,
+				CD8B341F21D83FEB00F922EA /* MPVehicleDepositsMO.swift in Sources */,
+				CDA542DC21E8F3D200C0ECD3 /* MPEntityViewModel.m in Sources */,
+				CDABFC3F21E91D68000A0EC0 /* MPVehicleDeposits.swift in Sources */,
+				CDD8C23F21D20F7F008CE5C9 /* CoreDataManager.swift in Sources */,
+				CD8B341921D83E5200F922EA /* MPEntityProtocol.swift in Sources */,
 				CD16AB2021D143AD00F43532 /* AppDelegate.m in Sources */,
+				CD5B99A021EF282D0039A23B /* MPMainInteractorProtocol.swift in Sources */,
+				CD1775A921DEC20C002A45DE /* MPEntity.swift in Sources */,
+				CDA542D721E8F0A700C0ECD3 /* MPEntityCellView.m in Sources */,
+				CD1775A721DE2CF8002A45DE /* MPMainFlowController.m in Sources */,
+				CD5B99A221EF2FFA0039A23B /* MPVersionManagerProtocol.swift in Sources */,
+				CDABFC3B21E91C55000A0EC0 /* MPEntityMO.swift in Sources */,
+				CD48B6FD21D637B0006A50B6 /* AlamoFireManager.swift in Sources */,
+				CD1775AC21DEC80A002A45DE /* MPDataManagerProtocols.swift in Sources */,
+				CD8B341B21D83F1E00F922EA /* MPPublicParkingsMO.swift in Sources */,
+				CD48B6FC21D637B0006A50B6 /* NetworkingManagerProtocol.swift in Sources */,
+				CD5B99A421EF316B0039A23B /* MPVersionManager.swift in Sources */,
+				CD4D1D1921EBC6F3008A624F /* MPDatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,15 +667,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MadridParkings/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MadridParkings/MadridParkings-Prefix.pch";
 				INFOPLIST_FILE = MadridParkings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MadridParkings/MadridParkings-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -384,15 +695,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F8ZQTBF6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MadridParkings/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MadridParkings/MadridParkings-Prefix.pch";
 				INFOPLIST_FILE = MadridParkings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = es.rgp.madridparkings.MadridParkings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MadridParkings/MadridParkings-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -400,6 +721,7 @@
 		CD16AB4321D143AF00F43532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F8ZQTBF6;
@@ -419,6 +741,7 @@
 		CD16AB4421D143AF00F43532 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F8ZQTBF6;
