@@ -1,9 +1,16 @@
-# madridparkings
+# Madrid Parkings
 
 An example practice to populate parkings and vehicle deposits from open API of Madrid council. 
 This sample uses MVP pattern, and persists data to show the information when networking connection fails.
+The project uses Carthage as dependency manager for third party libraries.
 
 By now the app only show a list of public parkings. Next it will show resident parkings and vehicle deposits.
+
+To install and compile: 
+
+- download the project and before build and run, download the Carthage dependencies, executing the next command in a terminal:
+
+carthage update --platform iOS
 
 TODO: 
 
